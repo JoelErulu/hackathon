@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<nav class="navbar">
+  <ul>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="#">Dropdown</a>
+      <ul>
+        <li><a href="#why">Why visit Dubai</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li><a href="#resturants">Restaurants</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</head>
