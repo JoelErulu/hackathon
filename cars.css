@@ -1,0 +1,127 @@
+.navbar {
+
+	position: relative;
+}
+
+.navbar li {
+	display: inline-block;
+}
+	
+.navbar li a {
+	color: white;
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+	
+.navbar ul {
+	margin: 0;
+	padding: 0;
+       background-color: black;
+}
+
+
+.navbar ul ul {
+	position: absolute;
+	top: 100%;
+	display: none;
+}
+
+.navbar ul ul li {
+	display: block;
+}
+
+.navbar li:hover ul {
+	display: block;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#why {
+    text-align: center;
+    color: #333;
+}
+
+#ps {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#ps p {
+    line-height: 1.5;
+	font-size: 1.2em;
+	
+}
+
+#more, #more2, #more3 {
+    color: #007BFF;
+}
+
+
+#flip {
+    background-color: #4CAF50;
+    color: white;
+    width:800px; 
+	margin:0 auto;
+	padding: 20px;
+	}
+
+#panel {
+    display: none;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#activities, #restaurants {
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+	text-align: center;
+
+}
+
+.gallery li {
+	display: inline-block;
+	width: 300px;
+	padding-bottom: 10px;
+	padding-right: 80px;
+    padding-left: 80px;
+	padding-top: 10px;
+	text-align: center;
+	}
+	
+.gallery ul {
+	list-style-type: none;
+	margin: auto;
+	display: block;
+}
+
+.gallery img {
+	width: 300px; 
+    height: 200px;
+    transition: all 0.3s ease-in-out; 
+	border-radius: 100px;
+
+}
+
+.gallery img:hover {
+	width: 320px; 
+    height: 220px;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	background-color:  black;
+	padding-bottom: 100px;
+	padding-right: 100px;
+    padding-left: 100px;
+	padding-top: 100px;
+}
