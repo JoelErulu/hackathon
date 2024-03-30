@@ -57,7 +57,7 @@ h1 {
 
 .gallery li {
 	display: inline-block;
-	width: 300px;
+	width: 250px;
 	padding-bottom: 10px;
 	padding-right: 80px;
     padding-left: 80px;
@@ -72,8 +72,8 @@ h1 {
 }
 
 .gallery img {
-	width: 300px; 
-    height: 200px;
+	width: 250px; 
+    height: 175px;
     transition: all 0.3s ease-in-out; 
 	border-radius: 100px;
 
