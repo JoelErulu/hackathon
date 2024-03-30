@@ -1,3 +1,6 @@
+/* Joel Erulu Project 3 */
+
+
 .navbar {
 
 	position: relative;
@@ -41,41 +44,6 @@ body {
     padding: 0;
 }
 
-#why {
-    text-align: center;
-    color: #333;
-}
-
-#ps {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-#ps p {
-    line-height: 1.5;
-	font-size: 1.2em;
-	
-}
-
-#more, #more2, #more3 {
-    color: #007BFF;
-}
-
-
-#flip {
-    background-color: #4CAF50;
-    color: white;
-    width:800px; 
-	margin:0 auto;
-	padding: 20px;
-	}
-
-#panel {
-    display: none;
-    max-width: 800px;
-    margin: 20px auto;
-}
 
 #activities, #restaurants {
     text-align: center;
